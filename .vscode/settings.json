@@ -1,0 +1,4 @@
+{
+    "files.autoSave": "afterDelay",
+    "github.copilot.chat.claudeAgent.allowAutoPermissions": true
+}
