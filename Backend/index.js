@@ -13,7 +13,7 @@ connectDB();
 
 const PORT = process.env.PORT;
 
-app.use('api/authRoutes',require('./routes/authRoutes.js'))
+app.use('/api/auth', require('./routes/authRoutes.js'))
 
 app.listen(PORT,()=>{
     console.log(`Server started at Port - ${PORT}`);
